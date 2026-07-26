@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilospacient.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Formulario de acceso para encuestas</h1>
+      <p>
+        Aqui se le pedira su cedula y fecha de nacimiento para llevar un
+        registro de los pacientes que responden las encuestas
+      </p>
+      <a href="pacietDC.html" class="Volver">Volver a las consultas</a>
+    </header>
+    <div id="formulario">
+      <form id="codepacient">
+        <label for="codpacient">ingrese su Cedula y fecha de nacimiento:</label>
+        <p id="mensajeError">Error</p>
+        <input type="password" required name="codpacient" id="campo-inputp" />
+        <input type="date" required name="fechnaci" id="campo-fech" />
+        <button type="submit" id="enviar">Enviar</button>
+      </form>
+    </div>
+  </body>
+  <script src="pacientverifts.js"></script>
+</html>
